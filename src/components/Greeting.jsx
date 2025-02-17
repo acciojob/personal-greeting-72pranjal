@@ -10,7 +10,7 @@ const Greeting = () => {
         <label htmlFor="name">Enter your name:</label>
         <br /> <br />
         <input type="text" onChange={handleChange} />
-        <p>{name.trim() !== '' ? `Hello, ${name}!`: ''}</p>
+        <p>{name.trim() !== '' ? `Hello ${name}!`: ''}</p>
     </div>
   )
 }
